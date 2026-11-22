@@ -92,8 +92,10 @@ You can change all of this later with the **⚙** button in the top-right corner
 
 ## Using Initiative Map
 
-- **Initiatives** (top bar) chooses which initiatives are on the map. Click the number button on a bubble to show its epics, and on an epic to show its tickets.
+- **Initiatives** (top bar) chooses which initiatives are on the map. Besides your team's own, it lists initiatives in **other projects** and of **other teams** that hold your team's epics, showing how many of your epics each holds. New views start with the active ones; **Reset to default** goes back to that. Click the number button on a bubble to show its epics, and on an epic to show its tickets.
 - **Drag** any bubble to arrange the map. Positions are saved.
+- **Compact** (top bar) shrinks every epic and ticket to one line so more fit on the screen; switch it off to bring them back. Point at a single epic or ticket to shrink or expand just that one.
+- **Hide** a ticket you don't need to see: point at it and click the crossed-out eye. Its parent then shows a small numbered circle; point at the circle to see the hidden tickets and click **Show** to bring one back. Hiding only affects your view, not Jira.
 - **Click** a bubble for its details and an **Open in Jira** link.
 - **Sprint mode** lines your tickets up in sprint columns.
 - **Edit mode** lets you change sprints in Jira by dragging tickets: into a sprint, to another sprint, to **Other · backlog** to take a ticket out of its sprint, or up and down to change its order. Each change is saved to Jira right away, with an **Undo** button. Your Jira account needs permission to schedule and edit issues.
